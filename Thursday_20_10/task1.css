@@ -1,0 +1,37 @@
+div{
+    border: 2px black solid;
+    background-color: white;
+    margin: 23px;
+    width: 500px;
+    height: 300px;
+}
+
+body{
+    background-color: rgb(206, 177, 139);
+}
+
+span{
+   background-color:burlywood ;
+}
+
+.ar{
+    background-color: yellow;
+}
+
+.p3{
+    color: blueviolet;
+}
+.div3{
+    color: blueviolet;
+}
+
+.div2{
+    border: 2px black solid;
+    background-color: white;
+    margin: 23px;
+}
+
+.p2{
+    border: 2px red dashed;
+    
+}

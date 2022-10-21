@@ -1,0 +1,42 @@
+.blue{
+    color: blue;
+}
+.orange{
+    color: orange;
+    text-decoration: underline;
+
+}
+
+.yellow{
+    background-color: yellow;
+    color: orange;
+    text-decoration: underline;
+}
+.red{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.blue2{
+    color: blue;
+}
+
+
+.red2{
+    color: red;
+    text-decoration: underline;
+}
+*{
+    margin-bottom: 10px;
+   
+}
+
+
+
+
+
+
+
+
+
