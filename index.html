@@ -8,17 +8,18 @@
     <title>Tasks</title>
 </head>
 <body>
- <dl>
-        <dt><h1>Important note</h1></dt>
-            <dd><h2>Click on a picture to get the result</h2></dd>
-    </dl>
+    <div class="back">
+          <dl>
+               <dt><h1>Important note</h1></dt>
+               <dd><h2>Click on a picture to get the result</h2></dd>
+          </dl>
     
     <table>
-        <tr> <th colspan="5">Student's Daily Tasks</th> </tr>
+           <tr> <th colspan="7">Student's Daily Tasks</th> </tr>
 
-           <tr> <th>Day</th>  <td>Sunday</td> <td>Monday</td> <td>Tuesday</td> <td>Wednesday</td> <td>Thursday</td></tr>
+           <tr> <th>Day</th>  <td>Sunday</td> <td>Monday</td> <td>Tuesday</td> <td>Wednesday</td> <td>Thursday</td> <td>Sunday</td></tr>
 
-           <tr> <th>Date</th> <td>10/16</td> <td>10/17</td> <td>10/18</td> <td>10/19</td> <td>10/20</td></tr>
+           <tr> <th>Date</th> <td>10/16</td> <td>10/17</td> <td>10/18</td> <td>10/19</td> <td>10/20</td> <td>10/23</td></tr> 
 
            <tr> <th>Tasks</th> 
             
@@ -41,7 +42,7 @@
                <a href="Monday_17_10/task4.html"><img src="Image/monday task4.png"  height="100px" width="100px"></a> </td> 
 
 
-               <!-- Tuesday_18_10 -->
+                <!-- Tuesday_18_10 -->
           <td> <a href="Tuesday_18_10/task1.html"><img src="Image/tuesday task1.png"  height="100px" width="100px"></a> <br> 
                <a href="Tuesday_18_10/task2.html"><img src="Image/tuesday task2.png"  height="100px" width="100px"></a> <br>
                <a href="Tuesday_18_10/task3.html"><img src="Image/tuesday task3.png"  height="100px" width="100px"></a> <br>
@@ -49,32 +50,58 @@
                <a href="Tuesday_18_10/task5.html"><img src="Image/tuesday task5.png"  height="100px" width="100px"></a> <br> 
                <a href="Tuesday_18_10/task6.html"><img src="Image/tuesday task6.png"  height="100px" width="100px"></a> </td> 
 
-               <!-- Wednesday_19_10 -->
+                <!-- Wednesday_19_10 -->
           <td>  <a href="Wednesday_19_10/task1.html"><img src="Image/wednesday task1.png" height="100px" width="100px"></a> <br>
                 <a href="Wednesday_19_10/task2.html"><img src="Image/wednesday task2.png" height="100px" width="100px"></a> <br>  
                 <a href="Wednesday_19_10/task3.html"><img src="Image/wednesday task3.png" height="100px" width="100px"></a> </td> 
         
 
-                  <!-- Thursday_20_10 -->
+                <!-- Thursday_20_10 -->
           <td>  <a href="Thursday_20_10/task1.html"><img src="Image/thursday task1.png" height="100px" width="100px"></a> <br>
                 <a href="Thursday_20_10/task2.html"><img src="Image/thursday task2.png" height="100px" width="100px"></a> <br>  
                 <a href="Thursday_20_10/task3.html"><img src="Image/thursday task3.png" height="100px" width="100px"></a> <br>
                 <a href="Thursday_20_10/task4.html"><img src="Image/thursday task4.png" height="100px" width="100px"></a>  </td> 
 
+
+                <!-- Sunday_23_10 -->
+         <td>  <a href="Sunday_23_10/task1.html"><img src="Image/sunday23 task1.png" height="100px" width="100px"></a> <br>
+               <a href="Sunday_23_10/task2.html"><img src="Image/sunday23 task2.png" height="100px" width="100px"></a>  </td> 
+
+
+
+
+
+
+
+
          </tr>
 
 
+           
+
     </table>
 
-    
-   
+    </div>
 
 
 
     <style>
+      .back{
+        background-image: url('Image/back1.jpg');
+        background-color: #cccccc;
+        height: 1000px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+
+      
         table,th,tr,td{
-        border: 2px black solid;
+        border: 4px rgb(255, 255, 255) solid;
         border-collapse: collapse;
+        color: white;
         font-size:30px ;
         width: 1500px;
         
@@ -90,6 +117,10 @@
         
         img{
             border: 1px black solid;
+        }
+
+        dl , dd{
+            color: white;
         }
     </style>
 </body>
