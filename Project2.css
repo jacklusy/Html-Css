@@ -1,0 +1,373 @@
+header{
+    text-align: center;
+    width: 900px;
+    position: absolute;
+    left: 35%;
+   height: 70px;
+   top: 40px;
+}
+
+header a{
+    color: #259188;
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+    
+    
+}
+
+a:hover{
+    background-color: #259188;
+    color: white;
+}
+
+
+
+
+
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(2,600px);
+    grid-template-rows: repeat(3,700px);
+    justify-content: center;
+    margin-top: 200px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+span{
+    display: block;
+}
+
+.container_back{
+    display: flex;
+    
+}
+
+.container_back div{
+    height: 3400px;
+    width: 100%;
+   position: absolute;
+    z-index: -1;
+}
+
+
+.background2{
+    background-color: #1D1D2D;
+    right: 0%;
+    
+}
+
+.background3{
+    background-color: #1D1D2D;
+    border: 5px #259188 solid;
+    height: 250%;
+    width: 600px;
+    left: 30%;
+    top: 30%;
+}
+
+.img{
+    text-align: center;
+    position: relative;
+    top:40px;
+}
+
+
+.objec{
+    position: relative;
+    text-align: right;
+    background-color:white ;
+    top: 48px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.educ{
+    position: relative;
+    text-align: right;
+    background-color:white ;
+    top: 397px;
+    padding: 5px;
+    font-size: 30px;  
+}
+
+
+.background4{
+    background-color: white;
+    border: 5px #259188 solid;
+    height: 250%;
+    right: 20%;
+    top: 30%;
+}
+
+#document{
+    position: absolute;
+    top: 0px;
+    width: 593px;
+    border-top: 5px #259188 solid;
+}
+
+.name{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+    top: 100px;
+}
+.comment{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 110px;
+}
+
+.tives{
+    position: relative;
+    text-align: left;
+    background-color:#1D1D2D ;
+    color: #259188;
+    top: 427px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.objectives1{
+    text-align: start;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 500px;
+    padding-left: 40px;
+}
+
+.objectives2{
+    text-align: start;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 600px;
+    padding-left: 40px;
+}
+
+.ation{
+    position: relative;
+    text-align: left;
+    background-color:#1D1D2D ;
+    color: #259188;
+    top: 670px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.education1{
+    text-align: start;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 700px;
+    padding-left: 40px;
+}
+
+.education2{
+    text-align: start;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 730px;
+    padding-left: 40px;
+}
+
+.background5{
+    background-color:white;
+    border: 5px #259188 solid;
+    height: 250%;
+    width: 600px;
+    left: 30%;
+    bottom: 0%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+} 
+
+.pro{
+    position: relative;
+    text-align: right;
+    background-color:#1D1D2D ;
+    color: #259188;
+    top: 100px;
+    padding: 5px;
+    font-size: 30px;  
+}
+
+.left-project1{
+position: relative;
+top: 200px;
+left: 45%;
+}
+
+.left-project2{
+    text-align: start;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 300px;
+    padding-left: 40px;
+}
+
+.left-project3{
+    text-align: start;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 400px;
+    padding-left: 40px;
+}
+
+
+.ski{
+    position: relative;
+    text-align: right;
+    background-color:#1D1D2D ;
+    color: #259188;
+    top: 470px;
+    padding: 5px;
+    font-size: 30px;  
+}
+
+.left-skills1{
+    text-align: start;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 500px;
+    padding-left: 40px;
+}
+
+.left-skills2{
+    text-align: start;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 560px;
+    padding-left: 40px;
+}
+
+.exper{
+    position: relative;
+    text-align: right;
+    background-color:#1D1D2D ;
+    color: #259188;
+    top: 637px;
+    padding: 5px;
+    font-size: 30px;  
+}
+
+.left-experience{
+    text-align: start;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 670px;
+    padding-left: 40px;
+}
+ 
+.background6{
+    background-color:#1D1D2D;
+    border: 5px #259188 solid;
+    height: 250%;
+    width: 600px;
+    right: 20%;
+    bottom: 0%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.ject{
+    position: relative;
+    text-align: left;
+    background-color:white;
+    top: 100px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.project1{
+position: relative;
+top: 200px;
+left: 35%;
+clip-path:circle();
+}
+
+.project2{
+    text-align: start;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 300px;
+    padding-left: 40px;
+}
+
+.project3{
+    text-align: start;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 400px;
+    padding-left: 40px;
+}
+
+.lls{
+    position: relative;
+    text-align: left;
+    background-color:white;
+    top: 470px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.skill1{
+    text-align: start;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 500px;
+    padding-left: 40px;
+}
+
+.skill2{
+    text-align: start;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 560px;
+    padding-left: 40px;
+}
+
+.ience{
+    position: relative;
+    text-align: left;
+    background-color:white;
+    top: 670px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+
+.experience{
+    text-align: start;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: 700px;
+    padding-left: 40px;
+}
+
+
+
